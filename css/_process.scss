@@ -1,11 +1,14 @@
 .process-section{
     @include f-100();
 
+
     .pro-section{
         @include inner();
         display: grid;
         grid-template-columns: repeat(3,1fr);
         grid-column-gap: 20px;
+        padding: 70px 0 50px 0;
+       
 
         .process{
             border: 1px solid var(--light-green);

@@ -21,6 +21,36 @@ html {
   --bold-grey:#dee2e6;
 }
 
+header .banners-p h2 {
+  font-size: 3.5rem;
+  color: var(--white);
+}
+header .banners-p ul {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+header .banners-p ul li {
+  list-style: none;
+  margin: 0 5px;
+}
+header .banners-p ul li a {
+  color: var(--light-green);
+  text-decoration: none;
+  font-size: 1rem;
+}
+header .banners-p ul li a:hover {
+  color: var(--light-green);
+}
+header .banners-p ul li a .breadcrumb {
+  color: var(--grey);
+}
+header .banners-p ul li .active {
+  color: var(--white);
+}
+
 .heading {
   width: 100%;
   text-align: center;
@@ -92,7 +122,7 @@ html {
   cursor: pointer;
 }
 
-.banners  { 
+.banners {
   background: linear-gradient(rgba(20, 20, 31, 0.7), rgba(20, 20, 31, 0.7)), url(../img/bg-hero.jpg);
   background-size: cover;
   width: 100%;
@@ -184,7 +214,12 @@ html {
   margin-top: 4px;
 }
 .banners .navigation nav ul .dropdown ul li a:hover {
-  background-color: #e9ecef;
+  background-color: #86b817;
+  color: var(--white);
+}
+.banners .navigation nav ul .dropdown ul li .active {
+  background-color: #86b817;
+  color: var(--white);
 }
 .banners .navigation nav ul .r-btn {
   background-color: var(--light-green);
@@ -225,6 +260,9 @@ html {
 }
 .banners .navigation .nav-white ul .dropdown ul li a:hover {
   background-color: #e9ecef;
+}
+.banners .navigation .nav-white ul .dropdown ul li .active {
+  color: var(--white);
 }
 .banners .navigation .nav-white ul .r-btn {
   background-color: var(--light-green);
@@ -391,6 +429,7 @@ html {
 
 .service-section {
   width: 100%;
+  padding: 50px 0;
 }
 .service-section .heading {
   max-width: 1200px;
@@ -449,6 +488,7 @@ html {
 
 .destination-section {
   width: 100%;
+  padding: 50px 0;
 }
 .destination-section .p-destination {
   max-width: 1200px;
@@ -616,6 +656,7 @@ html {
 
 .packages-section {
   width: 100%;
+  padding: 50px 0;
 }
 .packages-section .a-packages {
   max-width: 1200px;
@@ -725,6 +766,7 @@ html {
 .booktour-section {
   width: 100%;
   padding: 50px 0;
+  margin-top: -50px;
 }
 .booktour-section .book-tour {
   max-width: 1200px;
@@ -918,6 +960,7 @@ html {
 
 .process-section {
   width: 100%;
+  padding: 50px 0;
 }
 .process-section .pro-section {
   max-width: 1200px;
@@ -926,6 +969,7 @@ html {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-column-gap: 20px;
+  padding: 70px 0 50px 0;
 }
 .process-section .pro-section .process {
   border: 1px solid var(--light-green);
@@ -977,6 +1021,7 @@ html {
 
 .travel-section {
   width: 100%;
+  padding: 50px 0;
 }
 .travel-section .tra-section {
   max-width: 1200px;
@@ -1040,6 +1085,7 @@ html {
 .testimonial-section {
   width: 100%;
   padding: 50px 0;
+  padding: 50px 0;
 }
 .testimonial-section .testimonial {
   max-width: 1200px;
@@ -1096,6 +1142,63 @@ html {
   font-weight: 400;
   font-family: "Heebo", sans-serif;
   padding: 10px 0;
+}
+
+.contact-section {
+  width: 100%;
+  padding: 50px 0;
+}
+
+.page-found {
+  width: 100%;
+  padding: 50px 0;
+}
+.page-found .page-404 {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 100px 0;
+  padding: 50px 0;
+  text-align: center;
+}
+.page-found .page-404 .font-awesome .danger {
+  color: var(--light-green);
+  font-size: 4rem;
+  margin-bottom: 18px;
+}
+.page-found .page-404 .details {
+  color: var(--dark-grey);
+}
+.page-found .page-404 .details h1 {
+  font-size: 4.5rem;
+}
+.page-found .page-404 .details h2 {
+  font-size: 2.5rem;
+  font-size: 800;
+}
+.page-found .page-404 .details p {
+  font-size: 1rem;
+  color: var(--light-grey);
+  font-family: "Heebo", sans-serif;
+  font-weight: 100;
+  padding: 25px 260px;
+}
+.page-found .page-404 .btns-style {
+  background-color: var(--light-green);
+  color: var(--white);
+  border: none;
+  font-size: 0.9rem;
+  padding: 17px 50px;
+  font-weight: 600;
+  text-transform: capitalize;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: 1s;
+}
+.page-found .page-404 .btns-style:hover {
+  opacity: 0.9;
+}
+.page-found .page-404 .btns-style:focus {
+  outline: 5px solid var(--light-green);
 }
 
 footer {

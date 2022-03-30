@@ -100,7 +100,7 @@
         }
   
         ul {
-          // background-color: rebeccapurple;
+      
           width: 70%;
           display: flex;
           justify-content: flex-end;
@@ -118,11 +118,7 @@
               }
             }
   
-            // .caret {
-            //   &:hover {
-            //     color: var(--light-green);
-            //   }
-            // }
+       
   
             a {
               text-decoration: none;
@@ -173,9 +169,23 @@
                  
   
                   &:hover {
-                    background-color: #e9ecef;
+                    background-color: #86b817;
+                    color: var(--white); 
                   }
+
+                 
+
+                  
                 }
+
+
+
+                .active{
+                  background-color: #86b817;
+                  color: var(--white);                
+                }
+
+                
               }
             }
           }
@@ -250,7 +260,14 @@
                       &:hover {
                         background-color: #e9ecef;
                       }
+                      
                     }
+
+                    .active{
+                      color: var(--white);
+                    }
+
+                    
 
 
 

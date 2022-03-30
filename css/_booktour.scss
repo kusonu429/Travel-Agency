@@ -1,6 +1,7 @@
 .booktour-section{
     @include f-100();
-    padding: 50px 0;
+    margin-top: -50px;
+   
 
     .book-tour{
         @include inner();
@@ -234,3 +235,8 @@
 
 
 }
+
+
+// .book-tour{
+//     padding: 50px 0;
+// }
