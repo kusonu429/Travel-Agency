@@ -1,0 +1,136 @@
+
+
+@media only screen and (max-width:991px){
+
+
+    .top-nav{
+        display: none;
+    }
+
+    .banners{
+        .navigation{
+         
+            position: relative;
+            z-index: 1000;
+            background-color: var(--white);
+            nav{
+              padding: 15px 20px;
+                        
+              
+
+                ul{
+                    display: none;
+                    width: 100%;
+                    background-color:var(--white);
+                    display: flex;
+                    flex-direction: column;
+                    position: absolute;
+                    top: 70px;
+                    left: 0;
+                    padding-left: 50px;
+                    padding: 40px 50px;
+                    z-index: -100; 
+                    transition: 1s;  
+                    
+
+
+
+                    li{
+
+                        .caret {
+                         color: var(--black);
+                          }
+                       
+                        a{
+                            color: var(--dark-grey);
+                            border-bottom: none;
+                            
+
+
+                            &:hover{
+                                border-bottom: none;
+                            }
+
+                            
+                          
+                        }
+
+                        .active {
+                            color: #86b817;
+                            border-bottom: none;
+                          }
+
+                       
+                    }
+
+                    .dropdown {
+                        ul {
+                          border: 1px solid #e9ecef;
+                          position: absolute;
+                          top: 200px;
+                          left: 50px;
+                          width: 250px;
+                        
+              
+                          li {
+                        
+              
+                            a {
+                              
+                          
+              
+                              &:hover {
+                                background-color: #e9ecef;
+                              }
+                            }
+                          }
+                        }
+                      }
+
+                    
+
+                    .r-btn{
+                        width: 120px;
+                        a {
+                            color: var(--white);
+                            &:hover {
+                             
+                              border: none;
+                            }
+                          }
+                    }
+                }
+
+                .humburger{
+                    display: block;
+
+                    .bars{
+                        font-size: 1.3rem;
+                        border: 1px solid #e5e5e5;
+                        color: #777777;
+                        padding: 5px 10px;
+                        cursor: pointer;
+                        
+                        &:hover{
+                            border: 2px solid #777777;
+    
+                        }
+    
+                       
+                         
+                       
+                    }
+
+                   
+                   
+                    
+                }
+
+                .active{
+                    top: -400px;
+                }
+            }
+        }
+    }
+
+}
