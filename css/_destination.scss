@@ -11,7 +11,7 @@
         .l-img{
             width: 59.5%;
             @include flex();
-            // background-color: purple;
+       
             
             .img1{
                 width: 100%;
@@ -28,7 +28,9 @@
                     overflow: hidden;
                     
                     img{
-                        width: 100%;
+                        max-width: 100%;
+                        height: auto ;
+                        vertical-align: middle;
                         transition: all ease 1s;
                         
 
@@ -96,7 +98,10 @@
                     overflow: hidden;
                     position: relative;
                     img{
-                        width: 100%;
+                        width: 100% ;
+                        max-width: 100%;
+                        height: auto ;
+                        // vertical-align: middle;
                         transition: all ease 1s;
                         
                     }
@@ -144,7 +149,7 @@
 
         .r-img{
             width: 39.5%;
-            // background-color:green;
+     
 
             .img3{
                 width: 100%;
@@ -159,10 +164,12 @@
                     width: 100%;
                     overflow: hidden;
                     img{
-                        width: 100%;
-                        height: 57vh;
+                        width: 100% !important;
+                        height: 100% !important;
+                        max-width: 100%;
                         transition: all ease 1s;
                         object-fit: cover;
+                        vertical-align: middle;
 
                       
                         

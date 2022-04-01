@@ -67,6 +67,7 @@
     width: 100%;
     height: 85vh;
     background-position: center bottom;
+    position: relative;
   
     .navigation {
       width: 100%;
@@ -126,14 +127,40 @@
               transition: 1s;
               padding-bottom: 37px;
               color: var(--white);
+              position: relative;
+
+
+              &::after{
+                content: "";
+                width: 0%;
+                height: 2px;
+                position: absolute;
+                top: 61px;
+                display: block;
+                margin: auto;
+                background-color: var(--light-green);
+                border-bottom: 0;
+
+              }
+
+              &:hover{
+                color: var(--light-green);
+            
+
+                &::after{
+
+                  width: 100%;
+                  transition: all 0.3s linear;
+                }
+              }
+            
           
             
   
-              &:hover {
-                color: var(--light-green);
-                border-bottom: 2px solid var(--light-green);
-              }
-            }
+            
+            }  
+
+             
   
             .active {
               color: #86b817;
@@ -173,6 +200,19 @@
                     color: var(--white); 
                   }
 
+                  &::after{
+                    display: none;
+     
+                   }
+     
+                   &:hover{
+                  
+     
+                     &::after{
+                     display: none;
+                     }
+                   }
+
                  
 
                   
@@ -204,6 +244,8 @@
             }
           }
         }
+
+      
   
         .humburger {
           display: none;
@@ -218,7 +260,7 @@
         padding: 15px 20px;
         border-bottom: 1px solid #e9ecef;
         background-color: var(--white);
-        // transition:  1s;
+      
      
      
   
@@ -232,6 +274,12 @@
               &:hover {
                 color: var(--light-green);
               }
+
+              &::after{
+                top: 46px; 
+               }
+ 
+              
             }
   
             .active {
@@ -239,12 +287,6 @@
              
             }
   
-            // .caret {
-            //   color: var(--black);
-            //   &:hover {
-            //     color: var(--light-green);
-            //   }
-            // }
   
            
           }
@@ -256,9 +298,11 @@
                   li{
                     a{
                       color: var(--black);
+                      
 
                       &:hover {
                         background-color: #e9ecef;
+                        color: var(--black);
                       }
                       
                     }
@@ -301,34 +345,43 @@
     // banners-center starts here
   
     .banners-center {
-      width: 100%;
-      margin-top: 240px;
+      width: 80%;
+      @include center-item();
+      // background-color: #86b817;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
       text-align: center;
-      line-height: 80px;
+  
   
       h1 {
         font-size: 3.5rem;
         color: var(--white);
+        margin-bottom: 25px;
       }
   
       p {
         font-size: 1.3rem;
         color: var(--white);
+        margin-bottom: 25px;
       }
   
       .search-btn {
         width: 80%;
-        margin: 0 auto;
-        text-align: center;
+   
+    
+        
   
         input {
-          width: 58%;
-          margin: 0 auto;
+          
+        
+          width: 60%;
           padding: 20px 15px;
           border-radius: 30px;
           outline: none;
           border: 0;
-          margin-left: 100px;
+         margin-left: 10%;
   
           &::placeholder {
             color: var(--black);

@@ -7,7 +7,7 @@
 }
 
 // font-size
-html {
+body,html {
   font-size: 18px;
 }
 
@@ -18,6 +18,7 @@ html {
   --dark-grey: #2c3e50;
   --light-grey: #808b8d;
   --grey:#808B8D;
+  --grey-lighter:#333333;
   --black: #14141f;
   --white: #fff;
   --light: #F5F5F5;
@@ -44,6 +45,13 @@ html {
   width: 100%;  
   padding: 50px 0;
 
+}
+
+@mixin center-item {
+  display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
 }
 
 
