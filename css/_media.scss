@@ -59,6 +59,14 @@
     }
   }
 
+  .contact-section{
+
+    .contact-form{
+      width: 90%;
+
+    }
+  }
+
   footer {
     .footer-center {
       width: 90%;
@@ -101,6 +109,11 @@
       nav {
         padding: 15px 20px;
 
+        .logo{
+          width: 50%;
+        }
+      
+
         ul {
           display: none;
           width: 100%;
@@ -141,7 +154,7 @@
             }
 
             .active {
-              color: var(--light-green) !important;
+              color: var(--light-green);
               border-bottom: none;
             }
           }
@@ -160,7 +173,13 @@
                     background-color: #e9ecef;
                     color: var(--dark-grey);
                   }
+
+                  .active{
+                    color: var(--white);  
+                  }
                 }
+
+               
               }
             }
           }
@@ -178,6 +197,10 @@
 
         .humburger {
           display: block;
+          width: 50%;
+          display: flex;
+          justify-content: flex-end;
+          align-items: center;
 
           .bars {
             font-size: 1.3rem;
@@ -314,6 +337,25 @@
       width: 80%;
       grid-template-columns: repeat(2,1fr);
       grid-gap:20px;
+
+      .guider{
+
+        .social-icons{
+
+          .s-icon{
+            position: relative;
+            left: 37%;
+          }
+        }
+      }
+    }
+  }
+
+  .contact-section{
+    .contact-form{
+      width: 80%;
+      grid-template-columns: repeat(1,1fr);
+      grid-gap: 40px;
     }
   }
 
@@ -327,8 +369,7 @@
         .footer-1 {
           width: 48.5%;
           margin-bottom: 20px;
-          // background: green;
-
+    
           .submit{
 
           
@@ -360,10 +401,6 @@
 
 .banners{
  .banners-center{
-   background-color: red;
-
-   
-
 
    h1{
     font-size: 2.5rem;
@@ -378,16 +415,7 @@
    .search-btn{
      width: 100%;
      margin-left: 15%;
-    
-
-
-       input{
-
-       }
-       
-       .btn-style{
-
-       }
+          
    }
  }
 }
@@ -437,18 +465,7 @@
     width: 70%;
     grid-template-columns: repeat(1,1fr);
     grid-row-gap: 30px;
-
-    .guider{
-
-      .social-icons{
-
-        .s-icon{
-          position: relative;
-          top: -30px;
-          left: 40%;
-        }
-      }
-    }
+    
   }
 }
 
@@ -513,6 +530,28 @@ footer {
 
 @media only screen and(max-width:575px){
 
+
+  .about-section{
+    .about-us{
+      .articals{
+
+        .para {
+          aside{
+            width: 100%;
+            line-height: 36px;
+            margin-bottom: 0px;
+          }
+        }
+
+        .btns{
+          button{
+            margin-top: 25px;
+          }
+        }
+      }
+    }
+  }
+
   .service-section {
     .gallary {
       grid-template-columns: repeat(1,1fr);
@@ -520,7 +559,140 @@ footer {
     }
   }
 
+  .booktour-section{
+    .book-tour{
+      .form-section{
+        form{
+          .w-50{
+            width: 100%;
+          }
+
+          .date-time{
+            width: 100%;
+          }
+
+          .destination{
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+
 }
 
 
+
+@media only screen and (max-width:467px){
+
+  .heading{   
+    h4{    
+      font-size: 2rem;       
+    }    
+  }
+
+ .banners{
+   .banners-center{
+     .search-btn{
+      
+       input{
+         width: 70%;
+         margin-left: 0%;
+         margin: 0 14%;
+       
+       }
+
+       .btn-style{
+         position: relative;
+         top: -48px;
+         left: 15%;
+       }
+     }
+   }
+ }
+
+
+.booktour-section{
+
+  .book-tour{
+    .booking{
+      h1{
+          font-size: 1.8rem;
+      }
+    }
+
+    .form-section{
+      h1{
+        font-size: 1.8rem;
+      }
+    }
+  }
+
+  
+}
+
+.contact-section{
+  .contact-form{
+
+    .form{
+
+      .form-section{
+        form{
+          .w-50{
+            width: 100%;
+            margin-top: 20px;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+ footer{
+   
+  .footer-center{
+
+    .btm-headings{
+      .footer-1{
+        .submit{
+
+          
+          .search-btn{
+  
+            .btn-style{
+          
+              left: 66%;
+            }
+          }
+        }
+      }
+    }
+  }
+
+ }
+
+
+
+}
+
+
+@media only screen and (max-width:400px){
+
+
+  .travel-section{
+    .tra-section{
+      .guider{
+        .social-icons{
+
+          .s-icon{
+            position: relative;
+            left: 32%;
+          }
+        }
+      }
+    }
+  }
+
+}
 

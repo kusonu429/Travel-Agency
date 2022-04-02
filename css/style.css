@@ -1387,7 +1387,8 @@ header .banners-p ul li .active {
   color: var(--light-grey);
   font-family: "Heebo", sans-serif;
   font-weight: 100;
-  padding: 25px 260px;
+  padding: 25px 22%;
+  line-height: 30px;
 }
 .page-found .page-404 .btns-style {
   background-color: var(--light-green);
@@ -1629,6 +1630,10 @@ footer .footer-center .copyrights .menus ul li a {
     width: 90%;
   }
 
+  .contact-section .contact-form {
+    width: 90%;
+  }
+
   footer .footer-center {
     width: 90%;
     margin: 0 auto;
@@ -1656,6 +1661,9 @@ footer .footer-center .copyrights .menus ul li a {
   }
   .banners .navigation nav {
     padding: 15px 20px;
+  }
+  .banners .navigation nav .logo {
+    width: 50%;
   }
   .banners .navigation nav ul {
     display: none;
@@ -1691,7 +1699,7 @@ footer .footer-center .copyrights .menus ul li a {
     display: none;
   }
   .banners .navigation nav ul li .active {
-    color: var(--light-green) !important;
+    color: var(--light-green);
     border-bottom: none;
   }
   .banners .navigation nav ul .dropdown ul {
@@ -1705,6 +1713,9 @@ footer .footer-center .copyrights .menus ul li a {
     background-color: #e9ecef;
     color: var(--dark-grey);
   }
+  .banners .navigation nav ul .dropdown ul li a .active {
+    color: var(--white);
+  }
   .banners .navigation nav ul .r-btn {
     width: 120px;
   }
@@ -1716,6 +1727,10 @@ footer .footer-center .copyrights .menus ul li a {
   }
   .banners .navigation nav .humburger {
     display: block;
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
   }
   .banners .navigation nav .humburger .bars {
     font-size: 1.3rem;
@@ -1803,6 +1818,16 @@ footer .footer-center .copyrights .menus ul li a {
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 20px;
   }
+  .travel-section .tra-section .guider .social-icons .s-icon {
+    position: relative;
+    left: 37%;
+  }
+
+  .contact-section .contact-form {
+    width: 80%;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 40px;
+  }
 
   footer .footer-center {
     width: 80%;
@@ -1821,9 +1846,6 @@ footer .footer-center .copyrights .menus ul li a {
     font-size: 16px;
   }
 
-  .banners .banners-center {
-    background-color: red;
-  }
   .banners .banners-center h1 {
     font-size: 2.5rem;
   }
@@ -1834,6 +1856,7 @@ footer .footer-center .copyrights .menus ul li a {
     width: 100%;
     margin-left: 15%;
   }
+
   .about-section .about-us {
     width: 70%;
   }
@@ -1865,11 +1888,6 @@ footer .footer-center .copyrights .menus ul li a {
     width: 70%;
     grid-template-columns: repeat(1, 1fr);
     grid-row-gap: 30px;
-  }
-  .travel-section .tra-section .guider .social-icons .s-icon {
-    position: relative;
-    top: -30px;
-    left: 40%;
   }
 
   .testimonial-section .testimonial {
@@ -1903,7 +1921,64 @@ footer .footer-center .copyrights .menus ul li a {
   }
 }
 @media only screen and (max-width: 575px) {
+  .about-section .about-us .articals .para aside {
+    width: 100%;
+    line-height: 36px;
+    margin-bottom: 0px;
+  }
+  .about-section .about-us .articals .btns button {
+    margin-top: 25px;
+  }
+
   .service-section .gallary {
     grid-template-columns: repeat(1, 1fr);
+  }
+
+  .booktour-section .book-tour .form-section form .w-50 {
+    width: 100%;
+  }
+  .booktour-section .book-tour .form-section form .date-time {
+    width: 100%;
+  }
+  .booktour-section .book-tour .form-section form .destination {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 467px) {
+  .heading h4 {
+    font-size: 2rem;
+  }
+
+  .banners .banners-center .search-btn input {
+    width: 70%;
+    margin-left: 0%;
+    margin: 0 14%;
+  }
+  .banners .banners-center .search-btn .btn-style {
+    position: relative;
+    top: -48px;
+    left: 15%;
+  }
+
+  .booktour-section .book-tour .booking h1 {
+    font-size: 1.8rem;
+  }
+  .booktour-section .book-tour .form-section h1 {
+    font-size: 1.8rem;
+  }
+
+  .contact-section .contact-form .form .form-section form .w-50 {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  footer .footer-center .btm-headings .footer-1 .submit .search-btn .btn-style {
+    left: 66%;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .travel-section .tra-section .guider .social-icons .s-icon {
+    position: relative;
+    left: 32%;
   }
 }/*# sourceMappingURL=style.css.map */
