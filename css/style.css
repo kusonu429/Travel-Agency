@@ -1601,39 +1601,30 @@ footer .footer-center .copyrights .menus ul li a {
   .about-section .about-us .articals .para {
     margin-top: -40px;
   }
-
   .service-section .gallary {
     width: 90%;
   }
-
   .destination-section .p-destination {
     width: 90%;
   }
-
   .packages-section .a-packages {
     width: 90%;
   }
-
   .booktour-section .book-tour {
     width: 90%;
   }
-
   .process-section .pro-section {
     width: 90%;
   }
-
   .travel-section .tra-section {
     width: 90%;
   }
-
   .testimonial-section .testimonial {
     width: 90%;
   }
-
   .contact-section .contact-form {
     width: 90%;
   }
-
   footer .footer-center {
     width: 90%;
     margin: 0 auto;
@@ -1653,7 +1644,6 @@ footer .footer-center .copyrights .menus ul li a {
   .top-nav {
     display: none;
   }
-
   .banners .navigation {
     position: relative;
     z-index: 1000;
@@ -1743,9 +1733,8 @@ footer .footer-center .copyrights .menus ul li a {
     border: 2px solid #777777;
   }
   .banners .navigation nav .active {
-    top: 70px;    
-    }
-
+    top: 70px;
+  }
   .about-section .about-us {
     width: 80%;
   }
@@ -1769,13 +1758,11 @@ footer .footer-center .copyrights .menus ul li a {
   .about-section .about-us .articals .para aside {
     margin-top: 25px;
   }
-
   .service-section .gallary {
     width: 80%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
-
   .destination-section .p-destination {
     width: 80%;
   }
@@ -1788,13 +1775,11 @@ footer .footer-center .copyrights .menus ul li a {
   .destination-section .p-destination .r-img {
     width: 100%;
   }
-
   .packages-section .a-packages {
     width: 80%;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 20px;
   }
-
   .booktour-section .book-tour {
     width: 80%;
   }
@@ -1805,14 +1790,12 @@ footer .footer-center .copyrights .menus ul li a {
     width: 100%;
     padding: 30px 30px;
   }
-
   .process-section .pro-section {
     width: 80%;
     grid-template-columns: repeat(2, 1fr);
     grid-column-gap: 20px;
     grid-row-gap: 60px;
   }
-
   .travel-section .tra-section {
     width: 80%;
     grid-template-columns: repeat(2, 1fr);
@@ -1822,13 +1805,11 @@ footer .footer-center .copyrights .menus ul li a {
     position: relative;
     left: 37%;
   }
-
   .contact-section .contact-form {
     width: 80%;
     grid-template-columns: repeat(1, 1fr);
     grid-gap: 40px;
   }
-
   footer .footer-center {
     width: 80%;
   }
@@ -1845,7 +1826,6 @@ footer .footer-center .copyrights .menus ul li a {
   html {
     font-size: 16px;
   }
-
   .banners .banners-center h1 {
     font-size: 2.5rem;
   }
@@ -1856,44 +1836,35 @@ footer .footer-center .copyrights .menus ul li a {
     width: 100%;
     margin-left: 15%;
   }
-
   .about-section .about-us {
     width: 70%;
   }
-
   .service-section .gallary {
     width: 70%;
   }
-
   .destination-section .p-destination {
     width: 70%;
   }
-
   .packages-section .a-packages {
     width: 70%;
     grid-template-columns: repeat(1, 1fr);
   }
-
   .booktour-section .book-tour {
     width: 70%;
   }
-
   .process-section .pro-section {
     width: 70%;
     grid-template-columns: repeat(1, 1fr);
     grid-row-gap: 80px;
   }
-
   .travel-section .tra-section {
     width: 70%;
     grid-template-columns: repeat(1, 1fr);
     grid-row-gap: 30px;
   }
-
   .testimonial-section .testimonial {
     width: 70%;
   }
-
   footer .footer-center {
     width: 70%;
   }
@@ -1929,11 +1900,9 @@ footer .footer-center .copyrights .menus ul li a {
   .about-section .about-us .articals .btns button {
     margin-top: 25px;
   }
-
   .service-section .gallary {
     grid-template-columns: repeat(1, 1fr);
   }
-
   .booktour-section .book-tour .form-section form .w-50 {
     width: 100%;
   }
@@ -1948,7 +1917,6 @@ footer .footer-center .copyrights .menus ul li a {
   .heading h4 {
     font-size: 2rem;
   }
-
   .banners .banners-center .search-btn input {
     width: 70%;
     margin-left: 0%;
@@ -1959,19 +1927,16 @@ footer .footer-center .copyrights .menus ul li a {
     top: -48px;
     left: 15%;
   }
-
   .booktour-section .book-tour .booking h1 {
     font-size: 1.8rem;
   }
   .booktour-section .book-tour .form-section h1 {
     font-size: 1.8rem;
   }
-
   .contact-section .contact-form .form .form-section form .w-50 {
     width: 100%;
     margin-top: 20px;
   }
-
   footer .footer-center .btm-headings .footer-1 .submit .search-btn .btn-style {
     left: 66%;
   }
